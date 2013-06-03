@@ -82,7 +82,7 @@
 <div id="middle" class="cols2 sidebar_left box_white">
 
 <div class="content" role="main">
-    <article class="post-detail">
+    <article class="post-detail" style="margin-top: -25px;">
         <div class="entry">
             <div class="row">
                 <div class="col col_1 alpha omega">
@@ -93,16 +93,11 @@
                             <div class="author-description">
                                 <div class="author-image"><img src="images/temp/avatar_guest.jpg" width="60" height="60" class="frame_left" alt=""></div>
                                 <div class="author-text">
-                                    <h4>Author name</h4>
-                                    <p>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque fdaer  ipsa quae ab
-                                        tore veritatis et quasi architecto beatae vitae dicta sunt explicabo. . </p>
+                                    <h4>服务器技术 & Laravel</h4>
+                                    <p>开发应该是一个创造性的过程, 让你你享受，而不是让你很痛苦的事情。<br>Laravel让你享受新鲜的空气。在这里我们交流laravel以及服务器周边的各种技术。</p>
 
                                 </div>
-                                <div class="author-contact"><label>CONTACT THE AUTHOR:</label>
-                                    <a href="#" class="author_link_1" hidefocus="true" style="outline: none;">Facebook</a>
-                                    <a href="#" class="author_link_2" hidefocus="true" style="outline: none;">Twitter</a>
-                                    <a href="#" class="author_link_3" hidefocus="true" style="outline: none;">LinkedIn</a>
-                                </div>
+
                                 <div class="clear"></div>
                             </div>
 
@@ -120,13 +115,13 @@
                     <div class="carousel_content">
                         <ul id="work-carousel">
                             <li>
-                                <a href="work-details.html">
+                                <a href="http://forums.laravel.io/" target="_blank">
                                     <div class="work-item">
-                                        <div class="work-img"><img src="images/tuts/thumbnail_big.jpg" alt="" /></div>
+                                        <div class="work-img"><img src="images/f1.jpg" alt="" /></div>
                                         <div class="work-title">
                                             <div class="corner-orange-top"></div>
-                                            <h4 class="text-white text-bold">Electronics.com</h4>
-                                            <p class="text-white">Magento eCommerce Platform</p>
+                                            <h4 class="text-white text-bold">forums.laravel.io</h4>
+                                            <p class="text-white">官方英文论坛</p>
                                         </div>
                                     </div>
                                 </a>
@@ -135,13 +130,13 @@
 
                             <li>
 
-                                <a href="work-details.html">
+                                <a href="http://laravel.io/" target="_blank">
                                     <div class="work-item">
-                                        <div class="work-img"><img src="images/tuts/thumbnail_big_2.jpg" alt="" /></div>
+                                        <div class="work-img"><img src="images/f2.jpg" alt="" /></div>
                                         <div class="work-title">
                                             <div class="corner-orange-top"></div>
-                                            <h4 class="text-white text-bold">Agency Business Cards</h4>
-                                            <p class="text-white">Branding</p>
+                                            <h4 class="text-white text-bold">laravel.io</h4>
+                                            <p class="text-white">官方动态</p>
                                         </div>
                                     </div>
                                 </a>
@@ -163,11 +158,20 @@
     </article>
 </div>
 <div class="sidebar">
+    <span class="quote_right">Laravel 是一个简单优雅的 PHP WEB 开发框架，将你从意大利面条式的代码中解放出来。通过简单、高雅、表达式语法开发出很棒的 WEB应用!</span>
+    <div class="space"></div>
+    <br>
+    <div class="space"></div>
     <div class="widget-post">
-        <h2 class="text-bold text-darkgray">Our Work</h2>
-        <h2 class=" text-bold text-darkgray">We are commercially driven and focus on excellence with impact. We think, do, build and create.</h2>
+        <h2 class="text-bold text-darkgray">三步快速安装Laravel 4!</h2>
+        <ul>
+            <li>1.安装composer</li>
+            <li>2.下载laravel</li>
+            <li>2.安装包依赖</li>
+        </ul>
         <div class="space"></div>
         <a href="https://github.com/laravel/laravel/archive/master.zip" target="_blank" class="btn button_styled_large btn_pink big-text text-bold">下载最新版本</a>
+        <a href="https://github.com/laravel/laravel/archive/master.zip" target="_blank" class="btn button_styled_large btn_pink big-text text-bold">5分钟快速入门</a>
         <div class="space"></div>
     </div>
 </div>
@@ -177,10 +181,10 @@
 
 <div class="widget-more">
     <div class="post-more">
-        <h2 class="text-bold text-darkgray">More than 250 <span class="text-orange">Freebies</span> to choose from</h2>
-        <h4>Check out our great collection of freebies. Ease your work when it comes to building pixel perfect websites.</h4>
+        <h2 class="text-bold text-darkgray">超过<span class="text-orange">数百项</span>的优化和改进</h2>
+        <h4>Laravel代码本身的表现力和良好的文档使PHP程序编写令人愉快。</h4>
         <div class="space"></div>
-        <a href="#" class="btn button_styled_medium btn_gray">Get theme all</a>
+        <a href="{{URL::to('docs')}}" class="btn button_styled_medium btn_gray">去了解更多</a>
         <div class="space"></div>
     </div>
 
@@ -191,8 +195,8 @@
                     <div class="work-img"><img src="images/tuts/thumbnail03.jpg" alt="" /></div>
                     <div class="mini-work-title">
 
-                        <h4 class="text-black text-bold">Settings menu</h4>
-                        <p class="text-gray">This is a menu design concept for site.com</p>
+                        <h4 class="text-black text-bold">路由控制</h4>
+                        <p class="text-gray">更接近Sinatra的路由控制,更加灵活和便捷</p>
                     </div>
                 </div>
             </div>
@@ -204,8 +208,8 @@
                     <div class="work-img"><img src="images/tuts/thumbnail05.jpg" alt="" /></div>
                     <div class="mini-work-title">
 
-                        <h4 class="text-black text-bold">Notification</h4>
-                        <p class="text-gray">Decided to make a notification freebie</p>
+                        <h4 class="text-black text-bold">缓存</h4>
+                        <p class="text-gray">更丰富的缓存方式,加速你的应用</p>
                     </div>
                 </div>
             </div>
@@ -217,8 +221,8 @@
                     <div class="work-img"><img src="images/tuts/thumbnail07.jpg" alt="" /></div>
                     <div class="mini-work-title">
 
-                        <h4 class="text-black text-bold">iPod volume</h4>
-                        <p class="text-gray">iPod weheel with touch. What do you think ?</p>
+                        <h4 class="text-black text-bold">请求周期控制</h4>
+                        <p class="text-gray">更自由的Request Lifecycle,控制从请求发起的每个环节</p>
                     </div>
                 </div>
             </div>
@@ -230,8 +234,8 @@
                     <div class="work-img"><img src="images/tuts/thumbnail09.jpg" alt="" /></div>
                     <div class="mini-work-title">
 
-                        <h4 class="text-black text-bold">350 icons</h4>
-                        <p class="text-gray">Get them now while they are hot!</p>
+                        <h4 class="text-black text-bold">包管理</h4>
+                        <p class="text-gray">使用Composer替代了原有的bundle</p>
                     </div>
                 </div>
             </div>
@@ -242,10 +246,100 @@
 <div class="clear"></div>
 </div>
 
+<div id="middle" class="full_width box_white" style="margin-top: -50px;">
+    <!-- content -->
+    <div class="content" role="main">
+
+        <article class="post-detail">
+            <div class="entry">
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col col_1_3">
+                        <div class="inner">
+                            <div class="text-box-2">
+                                <p class="num-box bg-orange-1 text-white">1</p>
+                                <h2 class="text-bold">RESTful Routing</h2>
+                                <div class="clear"></div>
+                                <p>Use simple Closures to respond to requests to your application. It couldn't be easier to get started building amazing applications.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col_1_3">
+                        <div class="inner">
+                            <div class="text-box-2">
+                                <p class="num-box bg-orange-2 text-white">2</p>
+                                <h2 class="text-bold">Command Your Data</h2>
+                                <div class="clear"></div>
+                                <p>Ships with the amazing Eloquent ORM and a great migration system. Works great on MySQL, Postgres, SQL Server, and SQLite.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col_1_3">
+                        <div class="inner">
+                            <div class="text-box-2">
+                                <p class="num-box bg-orange-3 text-white">3</p>
+                                <h2 class="text-bold">Beautiful Templating</h2>
+                                <div class="clear"></div>
+                                <p>Use native PHP or the light-weight Blade templating engine. Blade provides great template inheritance and is blazing fast. You'll love it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col_1_3">
+                        <div class="inner">
+                            <div class="text-box-2">
+                                <p class="num-box bg-orange-4 text-white">4</p>
+                                <h2 class="text-bold">Ready For Tomorrow</h2>
+                                <div class="clear"></div>
+                                <p>Build huge enterprise applications, or simple JSON APIs. Write powerful controllers, or slim RESTful routes. Laravel is perfect for jobs of all sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col_1_3">
+                        <div class="inner">
+                            <div class="text-box-2">
+                                <p class="num-box bg-orange-5 text-white">5</p>
+                                <h2 class="text-bold">Proven Foundation</h2>
+                                <div class="clear"></div>
+                                <p>Laravel is built on top of several Symfony components, giving your application a great foundation of well-tested and reliable code.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col_1_3">
+                        <div class="inner">
+                            <div class="text-box-2">
+                                <p class="num-box bg-orange-6 text-white">6</p>
+                                <h2 class="text-bold">Composer Powered</h2>
+                                <div class="clear"></div>
+                                <p>Composer is an amazing tool to manage your application's third-party packages. Find packages on Packagist and use them in seconds.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </article>
+
+    </div>
+    <!--/content-->
+
+    <div class="clear"></div>
+</div>
+
+
+
 <div class="footer-slider">
     <div class="container">
         <div class="slider-inner">
-            <h2 class="text-bold">Technologies we use</h2>
+            <h2 class="text-bold">我们还关注</h2>
             <div class="tf-footer-carousel carousel" >
                 <ul class="slides">
                     <li >

@@ -10,30 +10,10 @@
                     <ul class="dropdown">
                         <li class="menu-level-0"><a href="/">首页<span>Home</span></a></li>
                         <li class="menu-level-0"><a href="{{URL::to('docs')}}">中文文档 <span>Documents</span></a></li>
-                        <li class="menu-level-0"><a href="work.html">API <span>Api detail</span></a></li>
                         <li class="menu-level-0"><a href="blog.html">相关资料 <span>Resource</span></a>   </li>
-                        <li class="menu-level-0"><a href="#">扩展包 <span>Packages</span></a>
+                        <li class="menu-level-0"><a href="#">扩展包 <span>Packages</span></a> </li>
+                        <li class="menu-level-0"><a href="work.html">中文社区 <span>Forums</span></a></li>
 
-                            <ul class="submenu-1">
-                                <li class="menu-level-1"><a href="prices.html"><span>Pricing</span></a></li>
-                                <li class="menu-level-1"><a href="shortcodes-buttons.html"><span>Shortcodes</span></a>
-                                    <ul class="submenu-2">
-                                        <li class="menu-level-2"><a href="shortcodes-buttons.html"><span>Buttons & Lists</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-text.html"><span>Text & Images</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-tabs.html"><span>Tabs & Toggles</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-charts.html"><span>Charts</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-columns.html"><span>Columns</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-columns-full.html"><span>Full Width Columns</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-lightbox.html"><span>Lightbox</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-tables.html"><span>Tables & Boxes</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-media.html"><span>Media (Videos & Img)</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-maps.html"><span>Maps & Locations</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-typography.html"><span>Typography</span></a></li>
-                                        <li class="menu-level-2"><a href="shortcodes-widgets.html"><span>Widgets</span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
 
 
                     </ul>
@@ -41,9 +21,7 @@
                 <!--/top menu-->
             </div>
 
-            <!--Let's Do It-->
-            <a href="contacts.html"><div class="header-box"><h2 class=" text-white text-extrabold">4.0</h2></div></a>
-            <!--/let's do it-->
+            <a href="https://github.com/laravel/laravel" target="_blank"><div class="header-box"><h2 class=" text-white text-extrabold">4.0</h2></div></a>
             <div class="clear"></div>
 
 
