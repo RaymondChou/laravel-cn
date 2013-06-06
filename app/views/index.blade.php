@@ -258,9 +258,9 @@
                         <div class="inner">
                             <div class="text-box-2">
                                 <p class="num-box bg-orange-1 text-white">1</p>
-                                <h2 class="text-bold">RESTful Routing</h2>
+                                <h2 class="text-bold">RESTful风格路由</h2>
                                 <div class="clear"></div>
-                                <p>Use simple Closures to respond to requests to your application. It couldn't be easier to get started building amazing applications.</p>
+                                <p>你可以使用一个简单的闭包来处理一个请求的响应. 他能让你再简单不过的创建一个惊人的web应用.</p>
                             </div>
                         </div>
                     </div>

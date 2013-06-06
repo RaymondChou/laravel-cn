@@ -1242,6 +1242,7 @@ p.wp-caption-text, .frame_caption, .image_frame figcaption {
 #topmenu .dropdown li a span {
   font: 13px 'Open Sans' !important;
   color: #999;
+  margin-top: 10px;
 }
 
 #topmenu .dropdown li a {
