@@ -24,17 +24,13 @@
                 </div>
 
                 <div class="f_col f_col_3">
-                    <div class="widget-container widget-testimonials">
-                        <h3 class="widget-title">Testimonials</h3>
-                        <div class="testimonials-user">
-                            <img src="images/user.jpg" class="ava_white" alt="" />
-                            <p class="name-user">Mike Maiers</p>
-                            <p class="name-post ">Netwakies CEO</p>
-                            <div class="widget-corner-bottom"></div>
-                        </div>
-                        <div class="widget-user-comment text-gray">
-                            <p>"Great service with fast and reliable support.</p>
-                        </div>
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">友情连接</h3>
+                        <ul>
+                            <li><a href="index.html"> Web Design</a></li>
+                            <li><a href="index.html"> Web Development</a></li>
+                            <li><a href="index.html"> Digital Printing</a></li>
+                        </ul>
                     </div>
                 </div>
 

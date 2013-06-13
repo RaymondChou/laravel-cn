@@ -34,7 +34,7 @@ class DocumentationController extends BaseController {
             // the filesystem and converting it to markdown for display
             // on the documentation pages.
             array_walk($data, function(&$raw) use ($markdown) {
-                $path = base_path().Config::get('docs.path').'/en/';
+                $path = base_path().Config::get('docs.path').'/zh/';
                 $raw = File::get($path."/{$raw}.md");
                 $raw = $markdown->transformMarkdown($raw);
             });
@@ -69,7 +69,7 @@ class DocumentationController extends BaseController {
             }
             else
             {
-                $foundCurrent = (str_replace(Config::get('docs.basehref').'/en/', '', $link['URI']) == $chapter);
+                $foundCurrent = (str_replace(Config::get('docs.basehref').'/zh/', '', $link['URI']) == $chapter);
 
                 if(!$foundCurrent)
                     $data['prev'] = $link;

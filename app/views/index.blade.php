@@ -171,7 +171,8 @@
         </ul>
         <div class="space"></div>
         <a href="https://github.com/laravel/laravel/archive/master.zip" target="_blank" class="btn button_styled_large btn_pink big-text text-bold">下载最新版本</a>
-        <a href="https://github.com/laravel/laravel/archive/master.zip" target="_blank" class="btn button_styled_large btn_pink big-text text-bold">5分钟快速入门</a>
+        <br><br>
+        <a href="http://ci.laravel-cn.com" target="_blank" class="btn button_styled_large btn_pink big-text text-bold">下载完整包</a>
         <div class="space"></div>
     </div>
 </div>
@@ -269,9 +270,9 @@
                         <div class="inner">
                             <div class="text-box-2">
                                 <p class="num-box bg-orange-2 text-white">2</p>
-                                <h2 class="text-bold">Command Your Data</h2>
+                                <h2 class="text-bold">更好的管理数据</h2>
                                 <div class="clear"></div>
-                                <p>Ships with the amazing Eloquent ORM and a great migration system. Works great on MySQL, Postgres, SQL Server, and SQLite.</p>
+                                <p>你可以使用Eloquent ORM和更加方便的迁移系统,并且兼容MySQL, Postgres, SQL Server, 和SQLite</p>
                             </div>
                         </div>
                     </div>
@@ -280,22 +281,25 @@
                         <div class="inner">
                             <div class="text-box-2">
                                 <p class="num-box bg-orange-3 text-white">3</p>
-                                <h2 class="text-bold">Beautiful Templating</h2>
+                                <h2 class="text-bold">漂亮的模板引擎</h2>
                                 <div class="clear"></div>
-                                <p>Use native PHP or the light-weight Blade templating engine. Blade provides great template inheritance and is blazing fast. You'll love it.</p>
+                                <p>使用原生php的Blade模板引擎. Blade提供了极强的模板继承系统并且非常快.你一定会爱上她的.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="clear"></div>
+
 
                 <div class="row">
                     <div class="col col_1_3">
                         <div class="inner">
                             <div class="text-box-2">
                                 <p class="num-box bg-orange-4 text-white">4</p>
-                                <h2 class="text-bold">Ready For Tomorrow</h2>
+                                <h2 class="text-bold">为企业级开发而准备</h2>
                                 <div class="clear"></div>
-                                <p>Build huge enterprise applications, or simple JSON APIs. Write powerful controllers, or slim RESTful routes. Laravel is perfect for jobs of all sizes.</p>
+                                <p>Laravel可以胜任各种企业级应用的开发,或者是小型的JSON API开发.使用超强大的controller及简便的restful route 你可以构建任何你想要的应用.</p>
                             </div>
                         </div>
                     </div>
@@ -304,10 +308,9 @@
                         <div class="inner">
                             <div class="text-box-2">
                                 <p class="num-box bg-orange-5 text-white">5</p>
-                                <h2 class="text-bold">Proven Foundation</h2>
+                                <h2 class="text-bold">可靠的基础</h2>
                                 <div class="clear"></div>
-                                <p>Laravel is built on top of several Symfony components, giving your application a great foundation of well-tested and reliable code.
-                                </p>
+                                <p>Laravel底层采用了一些Symfony的组件, 使你的应用更可靠更易于开发.</p>
                             </div>
                         </div>
                     </div>
@@ -316,10 +319,9 @@
                         <div class="inner">
                             <div class="text-box-2">
                                 <p class="num-box bg-orange-6 text-white">6</p>
-                                <h2 class="text-bold">Composer Powered</h2>
+                                <h2 class="text-bold">Composer包依赖支持</h2>
                                 <div class="clear"></div>
-                                <p>Composer is an amazing tool to manage your application's third-party packages. Find packages on Packagist and use them in seconds.
-                                </p>
+                                <p>Composer是一个第三方包依赖管理工具. 你只需要在Packagist上找到你需要的包然后使用就行了,非常简便.</p>
                             </div>
                         </div>
                     </div>
