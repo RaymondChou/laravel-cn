@@ -30,6 +30,9 @@
         <div id="middle" class="cols2 box_white">
             <!-- content -->
             <div class="content docs-body" role="main">
+                <p>L4文档翻译进行中:
+                    https://github.com/RaymondChou/Laravel-cn-docs
+                    fork这个项目进行翻译,然后pull-request</p>
                 {{ $chapter }}
             </div>
             <!--/content-->

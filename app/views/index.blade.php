@@ -6,7 +6,7 @@
             <div class="flexslider">
                 <ul class="slides">
                     <li>
-                        <a href="work-details.html"> <img src="images/img/slide-1.jpg" alt="" /></a>
+                        <a> <img src="images/img/slide-1.jpg" alt="" /></a>
                         <div class="details">
                             <div class="text-details">
                                 <h2 class="text-bold text-white">Laravel4正式版于5月28日发布</h2>
@@ -15,7 +15,7 @@
                     </li>
 
                     <li>
-                        <a href="work-details.html"><img src="images/img/slide-2.jpg" alt="" /></a>
+                        <a><img src="images/img/slide-2.jpg" alt="" /></a>
                         <div class="details">
                             <div class="text-details">
                                 <h2 class="text-bold text-white">Laravel4能帮助你快速构建任何的互联网应用</h2>
@@ -24,7 +24,7 @@
                     </li>
 
                     <li>
-                        <a href="work-details.html"><img src="images/img/slide-3.jpg" alt="" /></a>
+                        <a><img src="images/img/slide-3.jpg" alt="" /></a>
                         <div class="details">
                             <div class="text-details">
                                 <h2 class="text-bold text-white">使用Composer包管理,更少的耦合,更好的开发效率</h2>

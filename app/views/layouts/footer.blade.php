@@ -6,30 +6,26 @@
                     <div class="widget-container widget_categories">
                         <h3 class="widget-title">开源项目</h3>
                         <ul>
-                            <li><a href="index.html"> Web Design</a></li>
-                            <li><a href="index.html"> Web Development</a></li>
-                            <li><a href="index.html"> Digital Printing</a></li>
+                            <li><a href="http://forums.laravel.io/viewtopic.php?id=9196">MaterializedPathTree</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="f_col f_col_2">
                     <div class="widget-container widget_categories">
-                        <h3 class="widget-title">友情连接</h3>
+                        <h3 class="widget-title">官方链接</h3>
                         <ul>
-                            <li><a href="index.html"> Web Design</a></li>
-                            <li><a href="index.html"> Web Development</a></li>
-                            <li><a href="index.html"> Digital Printing</a></li>
+                            <li><a href="http://forums.laravel.io/"> Laravel官方论坛</a></li>
+                            <li><a href="http://laravel.com"> Laravel官网</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="f_col f_col_3">
                     <div class="widget-container widget_categories">
-                        <h3 class="widget-title">友情连接</h3>
+                        <h3 class="widget-title">友情链接</h3>
                         <ul>
-                            <li><a href="index.html"> Web Design</a></li>
-                            <li><a href="index.html"> Web Development</a></li>
-                            <li><a href="index.html"> Digital Printing</a></li>
+                            <li><a href="http://www.52mxp.com"> 我爱明信片</a></li>
+                            <li><a href="http://www.iiseeuu.com"> 南京爱西柚网络科技</a></li>
                         </ul>
                     </div>
                 </div>

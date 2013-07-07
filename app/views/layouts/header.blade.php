@@ -10,9 +10,9 @@
                     <ul class="dropdown">
                         <li class="menu-level-0"><a href="/">首页<span>Home</span></a></li>
                         <li class="menu-level-0"><a href="{{URL::to('docs')}}">中文文档 <span>Documents</span></a></li>
-                        <li class="menu-level-0"><a href="blog.html">相关资料 <span>Resource</span></a>   </li>
-                        <li class="menu-level-0"><a href="#">扩展包 <span>Packages</span></a> </li>
-                        <li class="menu-level-0"><a href="work.html">中文社区 <span>Forums</span></a></li>
+                        <li class="menu-level-0"><a href="http://laravel.io/" target="_blank">相关资料 <span>Resource</span></a>   </li>
+                        <li class="menu-level-0"><a href="https://packagist.org/" target="_blank">扩展包 <span>Packages</span></a> </li>
+                        <li class="menu-level-0"><a href="http://forums.laravel-cn.com">中文社区 <span>Forums</span></a></li>
 
 
 
